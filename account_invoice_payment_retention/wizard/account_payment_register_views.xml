@@ -18,6 +18,7 @@
                     <span class="mx-3" />
                     <field name="apply_payment_retention" widget="boolean_toggle" />
                 </div>
+                 <field name="payment_method_id" />
                 <field
                     name="enforce_payment_retention"
                     attrs="{'invisible': [('retention_amount_currency', '=', 0)]}"
